@@ -1,0 +1,90 @@
+header {
+  min-height: 100vh;
+  background-image: url("../assets/IMG_0589.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: $waterfont;
+  nav {
+    width: 30%;
+    display: flex;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  li {
+    // width: 80%;
+    // display: flex;
+    list-style: none;
+    // flex-direction: row;
+    // justify-content: space-between;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-bar {
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+
+    justify-content: space-between;
+  }
+
+  // .navbar {
+  //   width: 100%;
+  //   list-style: row;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   padding-right: 5%;
+  // }
+  .logo-box {
+    /* ..*/
+    // position: absolute;
+    align-items: center;
+    display: flex;
+    padding: left 40px;
+    // justify-content: space-between;
+    width: 70%;
+    h3 {
+      margin: 0 0 0 10px;
+      font-size: 2.5rem;
+      em {
+        font-size: 1rem;
+      }
+    }
+  }
+  .banner {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+    // width: 250px;
+    // height: 250px;
+    // background-image: url("../assets/p4sniper.png");
+    background-size: contain;
+    background-position: center;
+
+    h1 {
+      color: blue;
+      font-size: 5rem;
+      margin: 0;
+    }
+    p {
+      font-size: 2.4rem;
+      font-style: oblique;
+      font: outline;
+      text-shadow: 3px blue;
+    }
+  }
+}
+body .hide {
+  display: none;
+}

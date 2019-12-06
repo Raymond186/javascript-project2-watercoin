@@ -1,0 +1,35 @@
+html {
+  font-size: 80%;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px dotted black;
+  padding-top: 20px;
+  // justify-content: flex-end;
+}
+.h1 {
+  margin: 10%;
+  background-color: yellowgreen;
+  justify-content: flex-end;
+}
+.h3 {
+  margin: 0;
+}
+.hide {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kulim Park", sans-serif;
+}

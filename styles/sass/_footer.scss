@@ -1,0 +1,21 @@
+footer {
+  nav {
+    width: 80%;
+    display: flex;
+    justify-content: flex;
+  }
+  ul {
+    width: 80%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logotwo-box {
+    width: 20%;
+    display: flex;
+    color: blueviolet;
+    justify-content: flex-end;
+  }
+}

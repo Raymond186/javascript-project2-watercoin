@@ -1,0 +1,4 @@
+.DS_Store
+# put other things in here
+.vscode
+node_modules
