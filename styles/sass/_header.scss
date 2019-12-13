@@ -48,11 +48,11 @@ header {
   .logo-box {
     /* ..*/
     // position: absolute;
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     padding: left 40px;
     // justify-content: space-between;
-    width: 70%;
+    width: 40%;
     h3 {
       margin: 0 0 0 10px;
       font-size: 3.6rem;
@@ -60,6 +60,17 @@ header {
         font-size: 1.8rem;
       }
     }
+  }
+  .banner-container {
+    background: rgb(62, 60, 96);
+    background: radial-gradient(
+      ellipse,
+      rgba(187, 186, 202, 0.745536) 0%,
+      rgba(182, 182, 193, 0.15) 65%,
+      rgba(0, 212, 255, 0) 100%
+    );
+    border-radius: 25px;
+    padding: 30px;
   }
   .banner {
     // display: flex;
@@ -74,8 +85,8 @@ header {
     background-position: center;
 
     h1 {
-      color: rgb(81, 178, 216);
-      font-size: 6rem;
+      color: rgb(22, 13, 5);
+      font-size: 6.5rem;
       margin: 0;
     }
     p {
@@ -89,4 +100,7 @@ header {
 }
 body .hide {
   display: none;
+}
+.textbreak {
+  white-space: nowrap;
 }

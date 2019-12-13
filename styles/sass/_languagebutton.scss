@@ -3,7 +3,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0, 0);
   width: 100px;
   height: 100px;
   border: none;
@@ -11,4 +11,5 @@
   top: 0;
   right: 0;
   margin-left: auto;
+  padding: 2px;
 }

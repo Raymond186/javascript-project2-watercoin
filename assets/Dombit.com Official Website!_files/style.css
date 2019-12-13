@@ -453,7 +453,7 @@ ul.sub-menu {
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 footer ul {
@@ -474,14 +474,14 @@ footer ul {
 }
 
 footer .logotwo-box {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: blueviolet;
-  position: fixed;
-  bottom: 0;
-  left: 0px;
-}
-
-.social-media-links {
-  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .language-toggle {
